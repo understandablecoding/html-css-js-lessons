@@ -1,0 +1,37 @@
+Hypertext Markup Language (HTML) - Гипертекстовая язык разметки - Гипермәтінді жолақша тілі
+Look - қарау
+Looking for - іздеу
+Tag - тег
+Attributes - атрибуты
+Двоичный(закрываюшиеся) - жұп тег
+Одинарный тег  - жұпсыз тег
+head - голова, начало - басы
+title - заголовок - тақырып
+Language - язык - тілі
+Kz - kazakhstan
+kk - kazakh - қазақтілі
+charset - characters set - набор символов - символдардың жиынтығы
+body - тело - дене
+div - division - разделить, блок - бөлшек, блок
+p - paragraph - параграф
+h1 - heading 1 - заголовок 1 - тақырып 1
+img - image - изоброжение - сурет
+src - source - ресурс
+header -  шапка сайта - сайттың басы
+footer - ножка, подножка - сайттың астыңғы бөлігі
+main - основной - негізгі
+link - ссылка - сілтеме
+rel - relation - отношение - қатынас
+CSS - Cascade Stylesheet - каскадный таблица стилей - каскадты стильдер кестесі
+href - html reference - ссылка, поянснение - сілетем
+doctype - document type - тип документа - құжат типі түрі
+Google, Yandex, Yahoo, Bing - поисковый сайт, бот
+Emmet
+a - anchor - якорь - 
+br - break - разделить - бөлу
+id - identifier - идентификатор
+live  - прямой, в режиме реального времени
+CSS selector - селектор
+CSS property - свойства CSS - қасиет
+background-color -  цвет фона - фон түсі
+rgb - red, green, blue - қызыл, жасыл, көк
