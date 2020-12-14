@@ -47,8 +47,9 @@ a {
     padding: 10px;
 }
 
-.logo {
-    font-size: 40px;
+.header img{
+    height: 25px;   
+    cursor: pointer;
 }
 
 .title {
@@ -66,7 +67,7 @@ a {
     font-family: 'Raleway';
     border-top: 1px solid var(--color-1);
     border-bottom: 1px solid var(--color-1);
-    padding: 35px 0;
+    padding: 35px 10px;
     color: var(--color-2);
 }
 
@@ -93,6 +94,7 @@ a {
 
 .footer-touch input {
     padding: 5px 10px;
+    margin-bottom: 15px;
 }
 
 .footer-touch button {
@@ -112,7 +114,7 @@ a {
 
 
 .footer-bottom {
-    padding: 35px 0;
+    padding: 35px 10px;
     color: var(--color-2);
 }
 
@@ -130,12 +132,14 @@ a {
 
 .copyright {
     text-align: center;
+    margin: 20px 0;
 }
 
 
 /* BEGIN Menu */
 .nav-container {
     position: fixed;
+    width: 100%;
     z-index: 99;
     display: none;
 }
@@ -152,7 +156,9 @@ a {
 
 .menu-list {
     list-style: none;
-    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
 }
 
 .menu-list li {
@@ -163,11 +169,11 @@ a {
 .menu-close {
     position: absolute;
     top: 20px;
-    right: 60px;
+    right: 20px;
     cursor: pointer;
     background: transparent;
     border: 0;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--color-1);
 }
 
@@ -327,6 +333,14 @@ main {
         display: flex;
         justify-content: flex-end;
     }
+
+    .menu-list {
+        font-size: 35px;
+    }
+
+    .header img{
+        height: 30px;   
+    }
 }
 
 @media (min-width: 992px) {
@@ -344,6 +358,14 @@ main {
 
     .category__title {
         font-size: 50px;
+    }
+
+    .menu-list {
+        font-size: 50px;
+    }
+
+    .header img{
+        height: 35px;   
     }
 }
 
