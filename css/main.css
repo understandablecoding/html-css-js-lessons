@@ -48,8 +48,8 @@ a {
     padding: 10px;
 }
 
-.header img{
-    height: 25px;   
+.header img {
+    height: 25px;
     cursor: pointer;
 }
 
@@ -274,11 +274,11 @@ a {
     margin-top: 20px;
 }
 
-.category__item > div{
+.category__item>div {
     width: 100%;
 }
 
-.category__image img{
+.category__image img {
     width: 100%;
     object-fit: cover;
 }
@@ -368,6 +368,79 @@ main {
     padding: 0 10px;
 }
 
+.work__info {
+    background-color: var(--bg-color-2);
+    padding: 15px 0;
+}
+
+.work__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work__images div {
+    width: 50%;
+    margin: 20px 0;
+    height: 450px;
+}
+
+.work__images div:nth-child(4n),
+.work__images div:first-child {
+    width: 100%;
+    margin: 0;
+}
+
+.work__images div:nth-child(4n-2) {
+    padding-right: 20px;
+
+}
+
+.work__images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.author__image {
+    background: var(--bg-color-2);
+}
+
+.author__image,
+.author__info {
+    width: 50%;
+    height: 100vh;
+}
+
+.author__image img {
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    object-fit: cover;
+}
+
+.author__info {
+    padding-left: 5%;
+}
+
+.author__specialist {
+    text-transform: uppercase;
+    font-family: var(--font-family-1);
+    color: var(--color-2);
+}
+
+.author__fullname {
+    line-height: 2;
+    font-family: var(--font-family-2);
+    font-size: 40px;
+}
+
+.author__line {
+    width: 20%;
+    border-bottom: 1px solid var(--color-1);
+}
+
 
 @media (min-width: 576px) {
     .hero__subtitle {
@@ -408,7 +481,7 @@ main {
         font-size: 40px;
     }
 
-    .category__item > div {
+    .category__item>div {
         width: 90%;
     }
 
@@ -425,8 +498,8 @@ main {
         font-size: 35px;
     }
 
-    .header img{
-        height: 30px;   
+    .header img {
+        height: 30px;
     }
 
     .portfolio__item:nth-child(even) {
@@ -463,8 +536,8 @@ main {
         font-size: 50px;
     }
 
-    .header img{
-        height: 35px;   
+    .header img {
+        height: 35px;
     }
 
     .portfolio__image {
@@ -486,7 +559,7 @@ main {
     }
 
 
-    .category__item > div {
+    .category__item>div {
         width: 70%;
     }
 
@@ -498,7 +571,7 @@ main {
         display: block;
     }
 
-    
+
     .category__item:nth-child(3n - 1) {
         padding-top: 80px;
         display: flex;
@@ -519,7 +592,7 @@ main {
     }
 
 
-    
+
 }
 
 @media (min-width: 1400px) {
