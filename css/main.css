@@ -413,7 +413,6 @@ main {
 
 .author__image,
 .author__info {
-    width: 50%;
     height: 100vh;
 }
 
@@ -427,6 +426,11 @@ main {
 
 .author__info {
     padding-left: 5%;
+}
+
+.author__bio {
+    padding-left: 5%;
+    padding-right: 15px;
 }
 
 .author__specialist {
@@ -489,6 +493,77 @@ main {
     background: rgba(0, 0, 0, 0.7);
     font-family: var(--font-family-2);
     font-size: 25px;
+}
+.contact__form-container {
+    height: 100vh;
+}
+
+.contact__image {
+    display: none;
+}
+
+.contact__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact__form {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10%;
+    flex-direction: column;
+}
+
+.contact__form h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact__form input,
+.contact__form button,
+.contact__form textarea{
+    display: block;
+    margin: 10px 0;
+    font-family: var(--font-family-1);
+    color: var(--color-1);
+    background: var(--bg-color-2);
+    padding: 10px;
+    border: 0;
+    font-size: 14px;
+}
+
+.contact__form input::placeholder,
+.contact__form textarea::placeholder {
+    color: var(--color-2);
+}
+
+.contact__form button {
+    border: 1px solid var(--color-2);
+    background: transparent;
+    cursor: pointer;
+}
+
+.contact__info-container {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--bg-color-2);
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+.contact__info div {
+    padding: 10px 0;
+}
+
+.contact__info .icon {
+    font-size: 40px;
+}
+
+.contact__info .title {
+    font-size: 30px;
 }
 
 
@@ -576,6 +651,11 @@ main {
     .quote blockquote {
         font-size: 40px;
     }
+
+    
+    .contact__image {
+        display: block;
+    }
 }
 
 @media (min-width: 992px) {
@@ -614,6 +694,11 @@ main {
     .about.hero {
         display: none;
     }
+
+    .author__bio{
+        text-align: right;
+    }
+
 }
 
 @media (min-width: 1200px) {
